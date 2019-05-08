@@ -1,0 +1,16 @@
+﻿.navbar
+{
+    background-color: #ffd800;
+}
+
+#active
+{
+    color:red !important;
+}
+.login-box
+{
+    border-radius:5px;
+    box-shadow:0px 0px 2px 2px black;
+    margin-top:100px;
+    padding:40px;
+}
