@@ -86,13 +86,13 @@ namespace StackOverflowProject.Controllers
             }
         }
 
-       /*  public ActionResult Logout()
+        public ActionResult Logout()
         {
             Session.Abandon();
             return RedirectToAction("Index", "Home");
         }
 
-        [UserAuthorizationFilterAttribute]
+       [UserAuthorizationFilterAttribute]
         public ActionResult ChangeProfile()
         {
             int uid = Convert.ToInt32(Session["CurrentUserID"]);
@@ -101,7 +101,7 @@ namespace StackOverflowProject.Controllers
             return View(eudvm);
         }
 
-        [HttpPost]
+       /* [HttpPost]
         [ValidateAntiForgeryToken]
         [UserAuthorizationFilterAttribute]
         public ActionResult ChangeProfile(EditUserDetailsViewModel eudvm)
