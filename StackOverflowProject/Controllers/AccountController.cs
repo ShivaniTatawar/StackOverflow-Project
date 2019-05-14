@@ -92,7 +92,7 @@ namespace StackOverflowProject.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-       [UserAuthorizationFilterAttribute]
+      /* [UserAuthorizationFilterAttribute]
         public ActionResult ChangeProfile()
         {
             int uid = Convert.ToInt32(Session["CurrentUserID"]);
