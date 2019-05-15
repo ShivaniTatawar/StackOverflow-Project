@@ -37,7 +37,14 @@ namespace StackOverflowProject.Controllers
         {
 
             List<CategoryViewModel> categories = this.cs.GetCategories();
-            return View();
+            return View(categories);
         }
+        public ActionResult Questions()
+        {
+
+            List<QuestionViewModel> questions = this.qs.GetQuestions();
+            return View(questions);
+        }
+
     }
 }
