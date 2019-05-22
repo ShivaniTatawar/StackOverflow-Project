@@ -20,6 +20,9 @@ namespace StackOverflowProject.ViewModels
         public int UserID { get; set; }
         [Required]
         public int VotesCount { get; set; }
+
+        [Required]
+        public int QuestionID { get; set; }
         public virtual QuestionViewModel Question { get; set; }
 
     }
