@@ -29,7 +29,7 @@ namespace StackOverflowProject.Controllers
             return View(qvm);
         }
 
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         [UserAuthorizationFilterAttribute]
         public ActionResult AddAnswer(NewAnswerViewModel navm)
@@ -93,6 +93,6 @@ namespace StackOverflowProject.Controllers
                 ModelState.AddModelError("x", "Invalid data");
                 return View();
             }
-        }
+        }*/
     }
 }
